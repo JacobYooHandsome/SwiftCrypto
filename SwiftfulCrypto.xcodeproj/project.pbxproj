@@ -21,6 +21,7 @@
 		D5A088DB2C14199C00893356 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A088DA2C14199C00893356 /* CoinRowView.swift */; };
 		D5A088DD2C141A0300893356 /* MockCoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A088DC2C141A0300893356 /* MockCoinData.swift */; };
 		D5A088DF2C141F6A00893356 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A088DE2C141F6A00893356 /* Double.swift */; };
+		D5A2034B2D77A45900D1EA55 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2034A2D77A45300D1EA55 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D5A088DA2C14199C00893356 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		D5A088DC2C141A0300893356 /* MockCoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinData.swift; sourceTree = "<group>"; };
 		D5A088DE2C141F6A00893356 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		D5A2034A2D77A45300D1EA55 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D54E42122C0E89FC00A8B79D /* SwiftfulCryptoApp.swift */,
+				D5A203492D77A43F00D1EA55 /* Utilities */,
 				D575F0E52C15384700696370 /* Services */,
 				D58FAAED2C0FDCD5008A97A4 /* Models */,
 				D54E42202C0E8C3F00A8B79D /* Extensions */,
@@ -169,6 +172,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D5A203492D77A43F00D1EA55 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2034A2D77A45300D1EA55 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				D54E42132C0E89FC00A8B79D /* SwiftfulCryptoApp.swift in Sources */,
 				D54E422C2C0E903200A8B79D /* CircleButtonView.swift in Sources */,
 				D54E42222C0E8C5300A8B79D /* Color.swift in Sources */,
+				D5A2034B2D77A45900D1EA55 /* NetworkingManager.swift in Sources */,
 				D54E42302C0EA1DE00A8B79D /* CircleButtonAnimationView.swift in Sources */,
 				D5A088DD2C141A0300893356 /* MockCoinData.swift in Sources */,
 				D5A088DF2C141F6A00893356 /* Double.swift in Sources */,
