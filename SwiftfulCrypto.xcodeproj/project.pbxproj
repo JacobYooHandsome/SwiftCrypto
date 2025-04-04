@@ -26,6 +26,7 @@
 		D5EAB66A2D9CA36500A36911 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAB6692D9CA36500A36911 /* CoinImageService.swift */; };
 		D5EAB66C2D9CA82F00A36911 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAB66B2D9CA82F00A36911 /* CoinImageViewModel.swift */; };
 		D5EAB6702D9CB00B00A36911 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAB66F2D9CB00B00A36911 /* DeveloperPreview.swift */; };
+		D5EAB6722D9DD82B00A36911 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAB6712D9DD82B00A36911 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		D5EAB6692D9CA36500A36911 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		D5EAB66B2D9CA82F00A36911 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		D5EAB66F2D9CB00B00A36911 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		D5EAB6712D9DD82B00A36911 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				D5A2034A2D77A45300D1EA55 /* NetworkingManager.swift */,
+				D5EAB6712D9DD82B00A36911 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				D54E422C2C0E903200A8B79D /* CircleButtonView.swift in Sources */,
 				D54E42222C0E8C5300A8B79D /* Color.swift in Sources */,
 				D5A2034B2D77A45900D1EA55 /* NetworkingManager.swift in Sources */,
+				D5EAB6722D9DD82B00A36911 /* LocalFileManager.swift in Sources */,
 				D54E42302C0EA1DE00A8B79D /* CircleButtonAnimationView.swift in Sources */,
 				D5EAB66C2D9CA82F00A36911 /* CoinImageViewModel.swift in Sources */,
 				D5A088DD2C141A0300893356 /* MockCoinData.swift in Sources */,
